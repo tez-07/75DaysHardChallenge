@@ -45,7 +45,7 @@ public class sortArray {
         System.out.println();
         System.out.println();
    
-    
+        /*
         //Insertion Sort
         for(int i=0; i<arr.length; i++){
             for(int j=i+1; j<arr.length; j++){
@@ -56,5 +56,6 @@ public class sortArray {
                 }
             }
         }
+        */
     }
 }
