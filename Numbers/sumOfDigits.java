@@ -8,14 +8,22 @@ public class sumOfDigits {
         System.out.println("Enter the number: ");
         int num = sc.nextInt();
         int sum = 0;
-        int temp = num;
+        
+        
+        while (num!=0) {
+            int digit = num%10;
+            sum += digit;
+            num = num/10;
+        }
+        
+        /*int temp = num;
 
         while (temp!=0){
             int digit = temp % 10;         //get last digit
             sum += digit;                  //add to the sum
             temp = temp/10;
         }
-        
+        */
         System.out.println("Sum of digits are: "+sum);
     }
 }
