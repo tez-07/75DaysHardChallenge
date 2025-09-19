@@ -30,19 +30,20 @@ public class armstrongNumber {
 
         //Calculating the no of digits
         while (temp!=0) {
-            rem = temp % 10;        //last digit
             count ++;
-            temp /= 10;
+            temp /= 10;      // if we stored it in temp, then we had to initalize new temp varibale again
         }
+
 
         //Calculate each digit power
         while (temp!=0) {
             rem = temp % 10;
-            sum += Math.pow(rem, count); 
+            sum += Math.pow(rem, count);                    //already typecasted.
+            //sum = (int)(sum + Math.pow(rem, count));      We need to typecast because Math returns double    
             temp /=10;
         }
 
-        if(temp==sum){
+        if(number==sum){
             System.out.println(number+ " :is an armstrong number");
         }else{
             System.out.println(number+ " is not an armstrong number");
