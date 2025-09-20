@@ -37,7 +37,7 @@ public class occurenceEachChar {
             if(!map.containsKey(ch)){
                 map.put(ch, 1);
             }else{
-                int count = map.get(ch);
+                int count = map.get(ch); //retrieve the previous count and add new one
                 map.put(ch, count+1);
             }
         }
