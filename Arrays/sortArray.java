@@ -14,7 +14,7 @@ public class sortArray {
         System.out.println();
         
         //Bubble Sort
-            for(int i=0; i<arr.length-1; i++){          //largest will be pushed to the end, no need to check again 
+            for(int i=0; i<arr.length-1; i++){       //largest will be pushed to the end, no need to check again 
                 for(int j=0; j<arr.length- 1; j++){  //ensures the inner loop stops before reaching the sorted part. 
                     if(arr[j]>arr[j+1]){
                         int temp = arr[j];
