@@ -9,6 +9,7 @@ public class MajorityE169 {
         int size = nums.length;
         Map<Integer, Integer> map = new HashMap<>();
         
+
         for(int num: nums){
             //occurence of elements count on single line
             map.put(num, map.getOrDefault(num, 0)+1);
@@ -16,10 +17,12 @@ public class MajorityE169 {
             if(map.get(num) > size/2 ){ //checks value how many times repeated
                 return num;
             }
+
         }
 
-        //visualize this to be clear
+        
 
+        //visualize this to be clear
         return -1;
     }
 
