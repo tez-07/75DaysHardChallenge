@@ -1,7 +1,7 @@
 package LEETCODE;
 
-import java.util.HashMap;
-import java.util.Map;
+//import java.util.HashMap;
+//import java.util.Map;
 
 class UniqueCharFirst387 {
     public int firstUniqChar(String s) {
