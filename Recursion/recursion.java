@@ -1,4 +1,4 @@
-package Workshop;
+package Recursion;
 
 public class recursion {
     
