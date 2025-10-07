@@ -26,7 +26,7 @@ public class Palindrome125 {
         }
         return true;
         */
-
+        
         ///*
         //WITH ARRAYS
         int size = s.length();
