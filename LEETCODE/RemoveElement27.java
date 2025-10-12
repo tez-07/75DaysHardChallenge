@@ -1,7 +1,11 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class RemoveElement27 {
     
     public int removeElement(int[] nums, int val) {
         
+        /*
         int i=0;
         
         for(int j=0; j<nums.length; j++){
@@ -10,7 +14,19 @@ public class RemoveElement27 {
                 i++;
             }
         }
-        return i;
+         */
+
+        Set<Integer> set = new HashSet<>();
+        int j=0;
+        for(int i=j+1; i<nums.length; i++){
+            if(nums[j]!=nums[i]){
+                set.add(nums[j]);
+                j=i;
+            }
+        }
+        int size = set.size();
+        System.out.println(set);
+        return size;
     }
 
     public static void main(String[] args) {

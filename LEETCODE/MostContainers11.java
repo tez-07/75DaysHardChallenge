@@ -32,6 +32,11 @@ public class MostContainers11 {
             r--;
         }
 
+        //choose index r then left and take out the difference to find the width
+        //height = [1, 8, 6, 2, 5, 4, 8, 3, 7];
+        //indexes:  0  1  2  3  4  5  6  7  8
+        // here: 8-1=7
+        int width = r-l;
         int max = Math.multiplyExact(lar1, lar2);
         return max;
     }
