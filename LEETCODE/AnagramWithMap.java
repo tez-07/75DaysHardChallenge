@@ -1,3 +1,5 @@
+package LEETCODE;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,9 +17,7 @@ public class AnagramWithMap {
         }
         System.out.println(map);
         
-
-        if(map)
-        return ;
+        return true;
     }
 
     public static void main(String[] args) {

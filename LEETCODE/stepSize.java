@@ -1,3 +1,5 @@
+package LEETCODE;
+
 public class stepSize {
     
     public static void main(String[] args) {

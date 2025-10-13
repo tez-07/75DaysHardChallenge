@@ -1,3 +1,5 @@
+package LEETCODE;
+
 public class MaxProductSubarray {
     
     public static void main(String[] args) {
