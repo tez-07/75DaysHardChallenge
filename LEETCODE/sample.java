@@ -9,26 +9,19 @@ import java.util.Set;
 public class sample{
     public static void main(String[] args) {
         
-        int x =121;
-        System.out.println(isPalindrome(x));
+        int x =3;
+        System.out.println(fib(x));
         
+        /*
+        1,2,3 = 5
+         * 2+1=3
+         * 1+0=2
+         * 3+2=5
+         */
     }
 
-    static boolean isPalindrome(int x) {
+    static int fib(int x) {
         
-        if(x<=0)    return false;
-
-        int num = x;
-        int reverse = 0;
-        while(num>0){
-            int r = num % 10;
-            reverse = reverse*10 + r;
-            num = num / 10;
-        }
-
-        if(x==reverse){
-            return true;
-        }
-        return false;
+        
     }
 }
