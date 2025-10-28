@@ -1,3 +1,5 @@
+package Arrays;
+
 public class mergeSort {
     
     private void divide(int arr[], int start, int end){
